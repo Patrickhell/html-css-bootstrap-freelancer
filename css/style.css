@@ -1,6 +1,17 @@
 .bg-blu{
     background-color: #1abc9c;
 }
+.blu-color{
+   color: #1abc9c;;
+}
+
+.bg-darkblu{
+    background-color:#3a546d;
+}
+
+.bg-dark{
+    background-color: #2c3e50;
+}
 .border-radius{
 border-radius: 2%;
 }
@@ -28,42 +39,68 @@ ul{
     justify-content: center;
 }
 
-.text-left{
-    text-align: left;
-}
-.column{
-    display: flex;
-    flex-direction: column;
-}
 
-.text{
-    width: 70%;
-   margin-left: 4rem;
+.m_s-text{
     font-size: 12px;
+   
 }
 
-.download-text, .download-icon{
+.m_s-download-text, .m_s-download-icon{
     color: white;
     font-size: 11px;
      
 }
-.download-button{
+.m_s-download-button{
     background-color:#1abc9c;
     border-color: white;
 }
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 13px;
+}
+
+.m_s-font{
+    font-size: 13px;
+    
+}
+.m_s-text-footer{
+    width: 90%;
+    font-size: 15px;
+}
+ .down-footer {
+    height: 70px;
+ }
 
 @media screen and (min-width:768px) {
-    .About-text{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .m_s-text{
+        width: 35%;
+        
+    }
+    .m_s-aroundWeb-text{
+        font-size: 15px;
+        padding-left: 1rem;
+    }
+    .m_s-aboutFreel-text{
+        font-size: 15px;
+        margin-right: 1rem;
     }
 
-    .text{
-        width: 40%;
-       margin-left: 0;
-      
-       
+    .m_s-text-footer{
+        font-size: 14px;
     }
     
+   
+    
+}
+
+
+@media screen and (min-width:992px) {
+    .m_s-address {
+        font-size: 15px;
+    }
+   
+
 }
