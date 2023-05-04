@@ -4,3 +4,66 @@
 .border-radius{
 border-radius: 2%;
 }
+
+.white-color{
+   color: white;
+}
+ul{
+    list-style-type: none;
+}
+
+.title{
+    font-size: 30px;
+    
+}
+.small-rule{
+    font-size: 40px;
+    
+}
+.profession{
+    font-size: 12px;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.text-left{
+    text-align: left;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    width: 70%;
+   margin-left: 4rem;
+    font-size: 12px;
+}
+
+.download-text, .download-icon{
+    color: white;
+    font-size: 11px;
+     
+}
+.download-button{
+    background-color:#1abc9c;
+    border-color: white;
+}
+
+@media screen and (min-width:768px) {
+    .About-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .text{
+        width: 40%;
+       margin-left: 0;
+      
+       
+    }
+    
+}

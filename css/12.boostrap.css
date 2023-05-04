@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 578px;
+    min-width: 576px;
     margin: 0 auto;
 }
 
@@ -69,5 +69,8 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
  }
+
+
+ 
 
  
